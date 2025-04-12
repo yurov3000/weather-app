@@ -1,0 +1,25 @@
+.weather-card {
+    border: 2px solid #ccc; /* Граница карточки */
+    border-radius: 10px; /* Закругленные углы */
+    padding: 20px;
+    margin-top: 15px;
+    width: 150px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень для карточки */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Анимация при наведении */
+  }
+  
+  .weather-card:hover {
+    transform: translateY(-5px); /* Поднимаем карточку при наведении */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Увеличиваем тень */
+  }
+  
+  .weather-card h3 {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+  }
+  
+  .weather-card p {
+    margin: 5px 0;
+    font-size: 1em;
+  }
